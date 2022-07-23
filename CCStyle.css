@@ -1,0 +1,44 @@
+* {
+    font-family: cursive;
+}
+
+.title {
+    font-size: 48px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#main {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+#buttons * {
+    background-color: darksalmon;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    height: 48px;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+#buttons *:hover{
+    background-color: #ffc8b3 ;
+    transition: 0.5s;
+}
+
+#buttons *:active{
+    background-color: white;
+    transition: 0.1s;
+}
+
+#text {
+    max-width: 1200px;
+    margin: 10px;
+    font-size: 20px;
+}
